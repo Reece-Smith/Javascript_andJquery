@@ -1,0 +1,12 @@
+/* Set the scroll behavior of the page*/
+html{
+    scroll-behavior: smooth;
+}
+/* Set the font family and margin of the web page to zero*/ 
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin:0;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
