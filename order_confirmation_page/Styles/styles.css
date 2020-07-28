@@ -6,7 +6,55 @@ html{
 body{
     font-family: 'PT Sans', sans-serif;
     margin:0;
+    background-image: url("../Images/Background.jpg");
+    background-size: cover;
 }
 h1{
     font-family: 'Press Start 2P', cursive;
+    color:green;
+    text-align:center;
+    line-height:40px;
+    margin-top:20vh;
+}
+table{
+    line-height:5vh;
+}
+#info{
+    color:white;
+    border-style:double;
+    width:30vw;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+button{
+    margin-top:5vh;
+    margin-bottom: 5vh;
+    padding:12px 28px;
+    border-radius:12px;
+    border:none;
+    background-color:green;
+    color:white;
+    transition:0.5s;
+}
+button:hover{
+    background-color:white;
+    color:black;
+}
+footer{
+    width:100vw;
+    background-color:black;
+    position:fixed;
+    bottom:0;
+    text-align: center;
+    color:white;
+}
+footer a{
+    color:green;
+}
+@media all and (max-width:460px){
+    h1{
+        font-size: 1em;
+        margin-top:10vh;
+    }
 }
