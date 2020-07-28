@@ -9,6 +9,7 @@ body{
     background-image: url("../Images/Background.jpg");
     background-size: cover;
 }
+/*Font,colour and position of the h1 element set*/
 h1{
     font-family: 'Press Start 2P', cursive;
     color:green;
@@ -16,9 +17,11 @@ h1{
     line-height:40px;
     margin-top:20vh;
 }
+/*Word seperation for the table set*/
 table{
     line-height:5vh;
 }
+/*Table and title wrapper color,border style and position set*/
 #info{
     color:white;
     border-style:double;
@@ -27,6 +30,7 @@ table{
     margin-right:auto;
     text-align: center;
 }
+/*button styles and position set*/
 button{
     margin-top:5vh;
     margin-bottom: 5vh;
@@ -37,10 +41,12 @@ button{
     color:white;
     transition:0.5s;
 }
+/*button hover style set*/
 button:hover{
     background-color:white;
     color:black;
 }
+/*footer postion and style set*/
 footer{
     width:100vw;
     background-color:black;
@@ -49,9 +55,11 @@ footer{
     text-align: center;
     color:white;
 }
+/*footer link color set*/
 footer a{
     color:green;
 }
+/*title made more responsive*/
 @media all and (max-width:460px){
     h1{
         font-size: 1em;
