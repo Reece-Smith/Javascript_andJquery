@@ -65,4 +65,8 @@ footer a{
         font-size: 1em;
         margin-top:10vh;
     }
+    #info{
+        width:60vw;
+        margin-bottom:10vh;
+    }
 }
